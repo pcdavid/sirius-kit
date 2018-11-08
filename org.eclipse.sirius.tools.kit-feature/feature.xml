@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2018 Obeo
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License 2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0/
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Obeo - Initial API and implementation
+-->
+<feature
+      id="org.eclipse.sirius.tools.kit"
+      label="%featureName"
+      version="0.1.0.qualifier"
+      provider-name="%providerName"
+      license-feature="org.eclipse.license"
+      license-feature-version="0.0.0">
+
+   <description>
+      Includes all the tools to install on top of a plain Eclipse Commiters package to develop/contribute to Sirius itself.
+   </description>
+
+   <copyright>
+      Copyright (c) 2018 Obeo
+   </copyright>
+
+   <license url="https://www.eclipse.org/legal/epl-2.0/">
+This program and the accompanying materials are made available under the terms of the Eclipse Public License 2.0 which accompanies this distribution, and is available at https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+
+Contributors:
+  Obeo - initial API and implementation
+   </license>
+
+   <includes id="fr.obeo.acceleo" version="0.0.0"/>
+   <includes id="fr.obeo.acceleo.ui" version="0.0.0"/>
+   <includes id="fr.obeo.releng.targetplatform-feature" version="0.0.0"/>
+   <includes id="org.eclipse.acceleo.sdk" version="0.0.0"/>
+   <includes id="org.eclipse.emf.sdk" version="0.0.0"/>
+   <includes id="org.eclipse.emf.sdk.source" version="0.0.0"/>
+   <includes id="org.eclipse.swtbot.ide" version="0.0.0"/>
+   <includes id="edu.umd.cs.findbugs.plugin.eclipse" version="0.0.0"/>
+   <includes id="net.sf.eclipsecs" version="0.0.0"/>
+   <includes id="org.eclipse.mylyn.wikitext.editors_feature" version="0.0.0"/>
+   <includes id="org.eclipse.mylyn.wikitext_feature" version="0.0.0"/>
+   <includes id="org.eclipse.wst.xml_ui.feature" version="0.0.0"/>
+
+</feature>

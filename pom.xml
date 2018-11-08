@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2018 Obeo
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License 2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0/
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Obeo - Initial API and implementation
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.eclipse.sirius.tools</groupId>
+  <artifactId>dev-kit</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Sirius Development Kit</name>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License 2.0</name>
+      <comments>
+      This program and the accompanying materials are made available under the
+      terms of the Eclipse Public License 2.0 which accompanies this
+      distribution, and is available at http://www.eclipse.org/legal/epl-2.0/
+    </comments>
+    </license>
+  </licenses>
+
+  <properties>
+    <tycho-version>1.2.0</tycho-version>
+    <tycho-extras-version>1.2.0</tycho-extras-version>
+    <target-platform-path>.</target-platform-path>
+  </properties>
+
+  <modules>
+    <module>./org.eclipse.sirius.tools.kit-feature</module>
+    <module>./org.eclipse.sirius.tools.kit-repo</module>
+  </modules>
+
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <configuration>
+          <includePackedArtifacts>true</includePackedArtifacts>
+          <resolver>p2</resolver>
+          <dependency-resolution>
+            <optionalDependencies>ignore</optionalDependencies>
+          </dependency-resolution>
+          <target>
+            <artifact>
+              <groupId>org.eclipse.sirius.tools</groupId>
+              <artifactId>dev-kit</artifactId>
+              <version>0.1.0-SNAPSHOT</version>
+              <classifier>./org.eclipse.sirius.tools.kit.target/sirius-kit</classifier>
+            </artifact>
+          </target>
+        </configuration>
+      </plugin>
+    </plugins>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>target-platform-configuration</artifactId>
+          <version>${tycho-version}</version>
+          <configuration>
+            <environments>
+              <environment>
+                <os>linux</os>
+                <ws>gtk</ws>
+                <arch>x86_64</arch>
+              </environment>
+              <environment>
+                <os>win32</os>
+                <ws>win32</ws>
+                <arch>x86_64</arch>
+              </environment>
+              <environment>
+                <os>macosx</os>
+                <ws>cocoa</ws>
+                <arch>x86_64</arch>
+              </environment>
+            </environments>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-compiler-plugin</artifactId>
+          <version>${tycho-version}</version>
+          <configuration>
+            <encoding>UTF-8</encoding>
+            <useProjectSettings>false</useProjectSettings>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.4.1</version>
+          <configuration>
+            <encoding>ISO-8859-1</encoding>
+          </configuration>
+        </plugin>
+        <!-- Exclude pom.xml and pom.properties from generated archive (see http://maven.apache.org/shared/maven-archiver/) -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-packaging-plugin</artifactId>
+          <version>${tycho-version}</version>
+          <configuration>
+            <archive>
+              <addMavenDescriptor>false</addMavenDescriptor>
+            </archive>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-p2-plugin</artifactId>
+          <version>${tycho-extras-version}</version>
+          <executions>
+            <execution>
+              <id>p2-metadata</id>
+              <goals>
+                <goal>p2-metadata</goal>
+              </goals>
+              <phase>package</phase>
+            </execution>
+          </executions>
+          <configuration>
+            <defaultP2Metadata>false</defaultP2Metadata>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

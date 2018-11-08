@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description url="http://www.eclipse.org/sirius">
+      Sirius
+   </description>
+   <feature id="org.eclipse.sirius.tools.kit" version="0.0.0">
+      <category name="Sirius-Kit"/>
+   </feature>
+   <category-def name="Sirius-Kit" label="Sirius Development Kit">
+      <description>
+         Sirius Development Kit
+      </description>
+   </category-def>
+</site>
