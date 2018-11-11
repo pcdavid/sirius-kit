@@ -1,6 +1,6 @@
 target "sirius-kit" with source, requirements
 
-location Acceleo-2.8 "https://dl.bintray.com/pcdavid/p2-repos/v2.8.0/" {
+location Acceleo-2.8 "https://dl.bintray.com/pcdavid/acceleo-2.x/2.8.0/" {
 	fr.obeo.acceleo.feature.group [2.8.0,2.8.1)
 	fr.obeo.acceleo.ui.feature.group [2.8.0,2.8.1)
 }
