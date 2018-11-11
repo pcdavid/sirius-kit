@@ -1,5 +1,7 @@
 # Sirius Development Kit
 
+[![Build Status](https://travis-ci.com/pcdavid/sirius-kit.svg?branch=master)](https://travis-ci.com/pcdavid/sirius-kit)
+
 Defines a simple feature with all the tools needed to develop/contribute to [Eclipse Sirius](https://www.eclipse.org/). Designed to be installed on top of a plain [Eclipse IDE for Eclipse Committers](https://www.eclipse.org/downloads/packages/release/2018-09/r/eclipse-ide-eclipse-committers) package.
 
 Note that this is not (yet) offically part of Eclipse Sirius but just provided here as a convenience.
