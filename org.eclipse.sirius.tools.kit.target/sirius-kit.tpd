@@ -26,6 +26,10 @@ location FindBugs "http://findbugs.cs.umd.edu/eclipse" {
 	edu.umd.cs.findbugs.plugin.eclipse.feature.group [3.0.1,3.0.2)
 }
 
+location SonarLint "https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/4.0.0/" {
+    org.sonarlint.eclipse.feature.feature.group [4.0.0,4.0.1)
+}
+
 //location YourKit "https://www.yourkit.com/download/yjp2016_for_eclipse/" {
 //    com.yourkit.profiler.feature.group [2016.2.46,2016.2.47)
 //}

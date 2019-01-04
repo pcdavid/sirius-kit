@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright (c) 2018 Obeo
+  Copyright (c) 2018-2019 Obeo
   This program and the accompanying materials
   are made available under the terms of the Eclipse Public License 2.0
   which accompanies this distribution, and is available at
@@ -24,7 +24,7 @@
    </description>
 
    <copyright>
-      Copyright (c) 2018 Obeo
+      Copyright (c) 2018-2019 Obeo
    </copyright>
 
    <license url="https://www.eclipse.org/legal/epl-2.0/">
@@ -41,12 +41,11 @@ Contributors:
    <includes id="org.eclipse.cbi.targetplatform-feature" version="0.0.0"/>
    <includes id="org.eclipse.acceleo.sdk" version="0.0.0"/>
    <includes id="org.eclipse.emf.sdk" version="0.0.0"/>
-   <!--<includes id="org.eclipse.emf.sdk.source" version="0.0.0"/>-->
    <includes id="org.eclipse.swtbot.ide" version="0.0.0"/>
    <includes id="edu.umd.cs.findbugs.plugin.eclipse" version="0.0.0"/>
    <includes id="net.sf.eclipsecs" version="0.0.0"/>
    <includes id="org.eclipse.mylyn.wikitext.editors_feature" version="0.0.0"/>
    <includes id="org.eclipse.mylyn.wikitext_feature" version="0.0.0"/>
    <includes id="org.eclipse.wst.xml_ui.feature" version="0.0.0"/>
-
+   <includes id="org.sonarlint.eclipse.feature" version="0.0.0"/>
 </feature>
