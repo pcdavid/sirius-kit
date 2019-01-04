@@ -10,8 +10,8 @@ location Acceleo-3.7 "http://download.eclipse.org/acceleo/updates/releases/3.7/"
 	org.eclipse.acceleo.sdk.feature.group [3.7.0,3.8.0)
 }
 
-location SWTBot-2_7 "http://download.eclipse.org/technology/swtbot/releases/2.7.0/" {
-	org.eclipse.swtbot.ide.feature.group [2.7.0,2.8.0)
+location SWTBot-2_8 "http://download.eclipse.org/technology/swtbot/milestones/2018-12-m3" {
+	org.eclipse.swtbot.ide.feature.group [2.8.0,2.9.0)
 }
 
 location TP-DSL "https://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/" {
