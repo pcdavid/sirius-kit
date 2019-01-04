@@ -48,4 +48,5 @@ Contributors:
    <includes id="org.eclipse.mylyn.wikitext_feature" version="0.0.0"/>
    <includes id="org.eclipse.wst.xml_ui.feature" version="0.0.0"/>
    <includes id="org.sonarlint.eclipse.feature" version="0.0.0"/>
+   <includes id="org.eclipse.rcptt.platform" version="0.0.0"/>
 </feature>
