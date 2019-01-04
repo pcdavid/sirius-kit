@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="sirius-kit" sequenceNumber="1541622193">
+<target name="sirius-kit" sequenceNumber="1546595021">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="fr.obeo.acceleo.feature.group" version="2.8.0.201102021515"/>
@@ -18,8 +18,8 @@
       <repository id="SWTBot-2_7" location="http://download.eclipse.org/technology/swtbot/releases/2.7.0/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="fr.obeo.releng.targetplatform-feature.feature.group" version="2.1.1.201410251450"/>
-      <repository id="TP-DSL-Legacy" location="https://dl.bintray.com/mbarbero/fr.obeo.releng.targetplatform/latest"/>
+      <unit id="org.eclipse.cbi.targetplatform-feature.feature.group" version="3.0.0.201809052136"/>
+      <repository id="TP-DSL" location="https://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="net.sf.eclipsecs.feature.group" version="7.6.0.201703111252"/>
