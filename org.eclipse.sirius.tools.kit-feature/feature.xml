@@ -41,7 +41,7 @@ Contributors:
    <includes id="org.eclipse.cbi.targetplatform-feature" version="0.0.0"/>
    <includes id="org.eclipse.acceleo.sdk" version="0.0.0"/>
    <includes id="org.eclipse.emf.sdk" version="0.0.0"/>
-   <includes id="org.eclipse.emf.sdk.source" version="0.0.0"/>
+   <!--<includes id="org.eclipse.emf.sdk.source" version="0.0.0"/>-->
    <includes id="org.eclipse.swtbot.ide" version="0.0.0"/>
    <includes id="edu.umd.cs.findbugs.plugin.eclipse" version="0.0.0"/>
    <includes id="net.sf.eclipsecs" version="0.0.0"/>
