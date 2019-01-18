@@ -18,8 +18,8 @@ location TP-DSL "https://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/" {
     org.eclipse.cbi.targetplatform-feature.feature.group [3.0.0,3.0.1)
 }
 
-location Eclipse-CheckStyle "https://dl.bintray.com/eclipse-cs/eclipse-cs/8.8.0/" {
-    net.sf.eclipsecs.feature.group [8.8.0,8.8.1)
+location Eclipse-CheckStyle "https://dl.bintray.com/eclipse-cs/eclipse-cs/8.12.0/" {
+    net.sf.eclipsecs.feature.group [8.12.0,8.12.1)
 }
 
 location FindBugs "http://findbugs.cs.umd.edu/eclipse" {
