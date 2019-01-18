@@ -11,9 +11,9 @@ Note that this is not (yet) offically part of Eclipse Sirius but just provided h
 The feature `org.eclipse.sirius.tools.kit` includes the following components:
 * Acceleo 2.8 (needed for the legacy code generation step for the VSM editor's property sections).
 * Acceleo 3.7, used by some of our examples.
-* Mikael Barbero's [Target Platform DSL](https://github.com/mbarbero/fr.obeo.releng.targetplatform/). Currently the version used is the latest "legacy" version still available on Bintray, before the project was moved in [Eclipse CBI](https://github.com/eclipse-cbi/).
-* EMF SDK 2.15 (the version from Eclipse 2018-09)
-* SWTBot IDE Integration 2.7, needed to launch our automated SWTBot tests.
+* Target Platform DSL 3.0.0-SNAPSHOT from [Eclipse CBI](https://github.com/eclipse-cbi/). Note that this is using a (moving) snapshot build at the moment.
+* EMF SDK 2.16.0 from Eclipse 2018-12.
+* SWTBot IDE Integration 2.8-m3, needed to launch our automated SWTBot tests.
 * Eclipse FindBugs plug-in 3.0.1. Not strictly needed, and may be replaced by [SpotBugs](https://spotbugs.github.io/) at some point.
 * Eclipse CheckStyle Plug-in 7.6.0. This is not the latest version, but more recent ones choke on our current rule set.
 * Mylyn WikiText Editor 3.0.25 (the version from Eclipse 2018-09), as a convenience to edit various Textile and Markdown documents (notable the Sirius documentation).
