@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="sirius-kit" sequenceNumber="1546608990">
+<target name="sirius-kit" sequenceNumber="1547635250">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="fr.obeo.acceleo.feature.group" version="2.8.0.201102021515"/>
@@ -9,8 +9,8 @@
       <repository id="Acceleo-2.8" location="https://dl.bintray.com/pcdavid/acceleo-2.x/2.8.0/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.acceleo.feature.group" version="3.7.6.201810050612"/>
-      <unit id="org.eclipse.acceleo.sdk.feature.group" version="3.7.6.201810050612"/>
+      <unit id="org.eclipse.acceleo.feature.group" version="3.7.7.201812041426"/>
+      <unit id="org.eclipse.acceleo.sdk.feature.group" version="3.7.7.201812041426"/>
       <repository id="Acceleo-3.7" location="http://download.eclipse.org/acceleo/updates/releases/3.7/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
@@ -22,8 +22,8 @@
       <repository id="TP-DSL" location="https://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="net.sf.eclipsecs.feature.group" version="7.6.0.201703111252"/>
-      <repository id="Eclipse-CheckStyle" location="https://dl.bintray.com/eclipse-cs/eclipse-cs/7.6.0/"/>
+      <unit id="net.sf.eclipsecs.feature.group" version="8.8.0.201802200627"/>
+      <repository id="Eclipse-CheckStyle" location="https://dl.bintray.com/eclipse-cs/eclipse-cs/8.8.0/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="edu.umd.cs.findbugs.plugin.eclipse.feature.group" version="3.0.1.20150306-5afe4d1"/>
