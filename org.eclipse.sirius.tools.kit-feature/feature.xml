@@ -14,7 +14,7 @@
 <feature
       id="org.eclipse.sirius.tools.kit"
       label="%featureName"
-      version="0.3.0"
+      version="0.4.0"
       provider-name="%providerName"
       license-feature="org.eclipse.license"
       license-feature-version="0.0.0">
@@ -61,13 +61,15 @@ Contributors:
          version="0.0.0"/>
 
    <includes
-         id="edu.umd.cs.findbugs.plugin.eclipse"
+         id="com.github.spotbugs.plugin.eclipse"
          version="0.0.0"/>
 
    <includes
          id="net.sf.eclipsecs"
          version="0.0.0"/>
-
+   <includes
+         id="org.sonarlint.eclipse.feature"
+         version="0.0.0"/>
    <includes
          id="org.eclipse.mylyn.wikitext.editors_feature"
          version="0.0.0"/>
