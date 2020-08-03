@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="sirius-kit" sequenceNumber="1585983081">
+<target name="sirius-kit" sequenceNumber="1596458970">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="fr.obeo.acceleo.feature.group" version="2.8.0.201102021515"/>
@@ -14,11 +14,11 @@
       <repository id="Acceleo-3.7" location="http://download.eclipse.org/acceleo/updates/releases/3.7/R202002210922/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.swtbot.ide.feature.group" version="2.8.0.201906121535"/>
-      <repository id="SWTBot-2_8" location="http://download.eclipse.org/technology/swtbot/releases/2.8.0"/>
+      <unit id="org.eclipse.swtbot.ide.feature.group" version="3.0.0.202006031738"/>
+      <repository id="SWTBot-3_0" location="http://download.eclipse.org/technology/swtbot/releases/3.0.0"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.cbi.targetplatform-feature.feature.group" version="3.0.0.201902111444"/>
+      <unit id="org.eclipse.cbi.targetplatform-feature.feature.group" version="3.0.0.202005061025"/>
       <repository id="TP-DSL" location="https://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
@@ -47,7 +47,7 @@
       <unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.mylyn.wikitext.editors_feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.rcptt.platform.feature.group" version="0.0.0"/>
-      <repository id="Eclipse-2020-03" location="http://download.eclipse.org/releases/2020-03"/>
+      <repository id="Eclipse-2020-06" location="http://download.eclipse.org/releases/2020-06"/>
     </location>
   </locations>
 </target>

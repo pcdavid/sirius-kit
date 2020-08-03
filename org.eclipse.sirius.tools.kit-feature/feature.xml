@@ -14,7 +14,7 @@
 <feature
       id="org.eclipse.sirius.tools.kit"
       label="%featureName"
-      version="0.5.0"
+      version="0.6.0"
       provider-name="%providerName"
       license-feature="org.eclipse.license"
       license-feature-version="0.0.0">

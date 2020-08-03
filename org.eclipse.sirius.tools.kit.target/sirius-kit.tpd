@@ -10,8 +10,8 @@ location Acceleo-3.7 "http://download.eclipse.org/acceleo/updates/releases/3.7/R
     org.eclipse.acceleo.sdk.feature.group [3.7.8,3.8.0)
 }
 
-location SWTBot-2_8 "http://download.eclipse.org/technology/swtbot/releases/2.8.0" {
-    org.eclipse.swtbot.ide.feature.group [2.8.0,2.9.0)
+location SWTBot-3_0 "http://download.eclipse.org/technology/swtbot/releases/3.0.0" {
+    org.eclipse.swtbot.ide.feature.group [3.0.0,3.1.0)
 }
 
 location TP-DSL "https://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/" {
@@ -42,7 +42,7 @@ location Eclipse-Shared-License "http://download.eclipse.org/cbi/updates/license
     org.eclipse.license.feature.group lazy
 }
 
-location Eclipse-2020-03 "http://download.eclipse.org/releases/2020-03" {
+location Eclipse-2020-06 "http://download.eclipse.org/releases/2020-06" {
     com.ibm.icu lazy
     org.eclipse.emf.sdk.feature.group lazy
     org.eclipse.equinox.sdk.feature.group lazy
