@@ -5,12 +5,12 @@ location Acceleo-2.8 "https://dl.bintray.com/pcdavid/acceleo-2.x/2.8.0/" {
     fr.obeo.acceleo.ui.feature.group [2.8.0,2.8.1)
 }
 
-location Acceleo-3.7 "http://download.eclipse.org/acceleo/updates/releases/3.7/R202002210922/" {
+location Acceleo-3.7 "https://download.eclipse.org/acceleo/updates/releases/3.7/R202002210922/" {
     org.eclipse.acceleo.feature.group [3.7.8,3.8.0)
     org.eclipse.acceleo.sdk.feature.group [3.7.8,3.8.0)
 }
 
-location SWTBot-3_0 "http://download.eclipse.org/technology/swtbot/releases/3.0.0" {
+location SWTBot-3_0 "https://download.eclipse.org/technology/swtbot/releases/3.0.0" {
     org.eclipse.swtbot.ide.feature.group [3.0.0,3.1.0)
 }
 
@@ -22,15 +22,11 @@ location Eclipse-CheckStyle "https://dl.bintray.com/eclipse-cs/eclipse-cs/8.12.0
     net.sf.eclipsecs.feature.group [8.12.0,8.12.1)
 }
 
-//location FindBugs "http://findbugs.cs.umd.edu/eclipse" {
-//    edu.umd.cs.findbugs.plugin.eclipse.feature.group [3.0.1,3.0.2)
-//}
-
 location SpotBugs "https://spotbugs.github.io/eclipse/" {
 	com.github.spotbugs.plugin.eclipse.feature.group lazy
 }
 
-location SonarLint "https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/5.0.0/" {
+location SonarLint "https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/5.3.0.19940/" {
     org.sonarlint.eclipse.feature.feature.group lazy
 }
 
@@ -38,11 +34,11 @@ location SonarLint "https://binaries.sonarsource.com/SonarLint-for-Eclipse/relea
 //    com.yourkit.profiler.feature.group [2016.2.46,2016.2.47)
 //}
 
-location Eclipse-Shared-License "http://download.eclipse.org/cbi/updates/license" {
+location Eclipse-Shared-License "https://download.eclipse.org/cbi/updates/license" {
     org.eclipse.license.feature.group lazy
 }
 
-location Eclipse-2020-06 "http://download.eclipse.org/releases/2020-06" {
+location Eclipse-2020-09 "https://download.eclipse.org/releases/2020-09" {
     com.ibm.icu lazy
     org.eclipse.emf.sdk.feature.group lazy
     org.eclipse.equinox.sdk.feature.group lazy

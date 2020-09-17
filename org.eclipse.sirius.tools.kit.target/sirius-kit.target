@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="sirius-kit" sequenceNumber="1596458970">
+<target name="sirius-kit" sequenceNumber="1600317057">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="fr.obeo.acceleo.feature.group" version="2.8.0.201102021515"/>
@@ -11,11 +11,11 @@
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.acceleo.feature.group" version="3.7.10.202002210922"/>
       <unit id="org.eclipse.acceleo.sdk.feature.group" version="3.7.10.202002210922"/>
-      <repository id="Acceleo-3.7" location="http://download.eclipse.org/acceleo/updates/releases/3.7/R202002210922/"/>
+      <repository id="Acceleo-3.7" location="https://download.eclipse.org/acceleo/updates/releases/3.7/R202002210922/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.swtbot.ide.feature.group" version="3.0.0.202006031738"/>
-      <repository id="SWTBot-3_0" location="http://download.eclipse.org/technology/swtbot/releases/3.0.0"/>
+      <repository id="SWTBot-3_0" location="https://download.eclipse.org/technology/swtbot/releases/3.0.0"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.cbi.targetplatform-feature.feature.group" version="3.0.0.202005061025"/>
@@ -31,11 +31,11 @@
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.sonarlint.eclipse.feature.feature.group" version="0.0.0"/>
-      <repository id="SonarLint" location="https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/5.0.0/"/>
+      <repository id="SonarLint" location="https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/5.3.0.19940/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="0.0.0"/>
-      <repository id="Eclipse-Shared-License" location="http://download.eclipse.org/cbi/updates/license"/>
+      <repository id="Eclipse-Shared-License" location="https://download.eclipse.org/cbi/updates/license"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="com.ibm.icu" version="0.0.0"/>
@@ -47,7 +47,7 @@
       <unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.mylyn.wikitext.editors_feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.rcptt.platform.feature.group" version="0.0.0"/>
-      <repository id="Eclipse-2020-06" location="http://download.eclipse.org/releases/2020-06"/>
+      <repository id="Eclipse-2020-09" location="https://download.eclipse.org/releases/2020-09"/>
     </location>
   </locations>
 </target>
