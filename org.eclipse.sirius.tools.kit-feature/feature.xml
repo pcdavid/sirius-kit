@@ -14,7 +14,7 @@
 <feature
       id="org.eclipse.sirius.tools.kit"
       label="%featureName"
-      version="0.7.0"
+      version="0.8.0"
       provider-name="%providerName"
       license-feature="org.eclipse.license"
       license-feature-version="0.0.0">
@@ -24,7 +24,7 @@
    </description>
 
    <copyright>
-      Copyright (c) 2018-2020 Obeo
+      Copyright (c) 2018-2021 Obeo
    </copyright>
 
    <license url="https://www.eclipse.org/legal/epl-2.0/">

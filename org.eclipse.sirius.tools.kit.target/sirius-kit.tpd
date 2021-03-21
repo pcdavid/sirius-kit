@@ -5,7 +5,7 @@ location Acceleo-2.8 "https://dl.bintray.com/pcdavid/acceleo-2.x/2.8.0/" {
     fr.obeo.acceleo.ui.feature.group [2.8.0,2.8.1)
 }
 
-location Acceleo-3.7 "https://download.eclipse.org/acceleo/updates/releases/3.7/R202002210922/" {
+location Acceleo-3.7 "https://download.eclipse.org/acceleo/updates/releases/3.7/R202102190929/" {
     org.eclipse.acceleo.feature.group [3.7.8,3.8.0)
     org.eclipse.acceleo.sdk.feature.group [3.7.8,3.8.0)
 }
@@ -38,7 +38,7 @@ location Eclipse-Shared-License "https://download.eclipse.org/cbi/updates/licens
     org.eclipse.license.feature.group lazy
 }
 
-location Eclipse-2020-09 "https://download.eclipse.org/releases/2020-09" {
+location Eclipse-2021-03 "https://download.eclipse.org/releases/2021-03" {
     com.ibm.icu lazy
     org.eclipse.emf.sdk.feature.group lazy
     org.eclipse.equinox.sdk.feature.group lazy
