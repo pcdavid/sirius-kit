@@ -87,8 +87,4 @@ Contributors:
          id="org.sonarlint.eclipse.feature"
          version="0.0.0"/>
 
-   <includes
-         id="org.eclipse.rcptt.platform"
-         version="0.0.0"/>
-
 </feature>
