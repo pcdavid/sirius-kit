@@ -14,7 +14,7 @@
 <feature
       id="org.eclipse.sirius.tools.kit"
       label="%featureName"
-      version="0.8.0"
+      version="21.6.0"
       provider-name="%providerName"
       license-feature="org.eclipse.license"
       license-feature-version="0.0.0">
@@ -71,6 +71,7 @@ Contributors:
    <includes
          id="org.sonarlint.eclipse.feature"
          version="0.0.0"/>
+
    <includes
          id="org.eclipse.mylyn.wikitext.editors_feature"
          version="0.0.0"/>

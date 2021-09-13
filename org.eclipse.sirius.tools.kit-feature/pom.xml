@@ -20,7 +20,7 @@
   <parent>
     <groupId>org.eclipse.sirius.tools</groupId>
     <artifactId>dev-kit</artifactId>
-    <version>0.8.0</version>
+    <version>21.6.0</version>
     <relativePath>..</relativePath>
   </parent>
   

@@ -18,7 +18,7 @@ location TP-DSL "https://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/" {
     org.eclipse.cbi.targetplatform-feature.feature.group [3.0.0,3.0.1)
 }
 
-location Eclipse-CheckStyle "https://dl.bintray.com/eclipse-cs/eclipse-cs/8.12.0/" {
+location Eclipse-CheckStyle "https://pcdavid.net/eclipse-cs-8.12" {
     net.sf.eclipsecs.feature.group [8.12.0,8.12.1)
 }
 
@@ -38,7 +38,7 @@ location Eclipse-Shared-License "https://download.eclipse.org/cbi/updates/licens
     org.eclipse.license.feature.group lazy
 }
 
-location Eclipse-2021-03 "https://download.eclipse.org/releases/2021-03" {
+location Eclipse-2021-06 "https://download.eclipse.org/releases/2021-06" {
     com.ibm.icu lazy
     org.eclipse.emf.sdk.feature.group lazy
     org.eclipse.equinox.sdk.feature.group lazy
