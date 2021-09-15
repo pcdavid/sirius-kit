@@ -38,7 +38,7 @@ location Eclipse-Shared-License "https://download.eclipse.org/cbi/updates/licens
     org.eclipse.license.feature.group lazy
 }
 
-location Eclipse-2021-06 "https://download.eclipse.org/releases/2021-06" {
+location Eclipse-2021-09 "https://download.eclipse.org/releases/2021-09" {
     com.ibm.icu lazy
     org.eclipse.emf.sdk.feature.group lazy
     org.eclipse.equinox.sdk.feature.group lazy

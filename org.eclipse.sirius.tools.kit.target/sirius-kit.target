@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="sirius-kit" sequenceNumber="1631533692">
+<target name="sirius-kit" sequenceNumber="1631694465">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="fr.obeo.acceleo.feature.group" version="2.8.0.201102021515"/>
@@ -47,7 +47,7 @@
       <unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.mylyn.wikitext.editors_feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.rcptt.platform.feature.group" version="0.0.0"/>
-      <repository id="Eclipse-2021-06" location="https://download.eclipse.org/releases/2021-06"/>
+      <repository id="Eclipse-2021-09" location="https://download.eclipse.org/releases/2021-09"/>
     </location>
   </locations>
 </target>
