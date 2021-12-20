@@ -3,9 +3,9 @@
 ![Build Status](https://github.com/pcdavid/sirius-kit/actions/workflows/build.yml/badge.svg)
 
 Defines a simple feature with all the tools needed to develop/contribute to [Eclipse Sirius](https://www.eclipse.org/).
-Designed to be installed on top of a plain [Eclipse IDE for Eclipse Committers](https://www.eclipse.org/downloads/packages/release/2021-09/r/eclipse-ide-eclipse-committers) package.
+Designed to be installed on top of a plain [Eclipse IDE for Eclipse Committers](https://www.eclipse.org/downloads/packages/release/2021-12/r/eclipse-ide-eclipse-committers) package.
 
-Note that this is not (yet) offically part of Eclipse Sirius but just provided here as a convenience.
+Note that this is not (yet) officially part of Eclipse Sirius but just provided here as a convenience.
 
 ## Content
 

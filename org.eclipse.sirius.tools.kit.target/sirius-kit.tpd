@@ -26,19 +26,15 @@ location SpotBugs "https://spotbugs.github.io/eclipse/" {
 	com.github.spotbugs.plugin.eclipse.feature.group lazy
 }
 
-location SonarLint "https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/5.3.0.19940/" {
+location SonarLint "https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/7.1.0.39158/" {
     org.sonarlint.eclipse.feature.feature.group lazy
 }
-
-//location YourKit "https://www.yourkit.com/download/yjp2016_for_eclipse/" {
-//    com.yourkit.profiler.feature.group [2016.2.46,2016.2.47)
-//}
 
 location Eclipse-Shared-License "https://download.eclipse.org/cbi/updates/license" {
     org.eclipse.license.feature.group lazy
 }
 
-location Eclipse-2021-09 "https://download.eclipse.org/releases/2021-09" {
+location Eclipse-2021-12 "https://download.eclipse.org/releases/2021-12" {
     com.ibm.icu lazy
     org.eclipse.emf.sdk.feature.group lazy
     org.eclipse.equinox.sdk.feature.group lazy
