@@ -16,7 +16,7 @@ The feature `org.eclipse.sirius.tools.kit` includes the following components:
 * EMF SDK.
 * SWTBot IDE Integration 3.0, needed to launch our automated SWTBot tests.
 * [SpotBugs](https://spotbugs.github.io/), not strictly needed.
-* Eclipse CheckStyle Plug-in 8.12.0.
+* Eclipse CheckStyle Plug-in 9.0.1.
 * Mylyn WikiText Editor, as a convenience to edit various Textile and Markdown documents (notable the Sirius documentation).
 * Eclipse XML Editors and Tools to edit various XML files more comfortably.
 
@@ -32,6 +32,6 @@ The resulting p2 repository is located in `org.eclipse.sirius.tools.kit-repo/tar
 
 ## License
 
-Copyright (c) 2018, 2021 Obeo.
+Copyright (c) 2018-2022 Obeo.
 
 This program and the accompanying materials are made available under the terms of the Eclipse Public License 2.0 which accompanies this distribution, and is available at https://www.eclipse.org/legal/epl-2.0/
