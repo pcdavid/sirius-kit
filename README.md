@@ -16,7 +16,7 @@ The feature `org.eclipse.sirius.tools.kit` includes the following components:
 * EMF SDK.
 * SWTBot IDE Integration 3.0, needed to launch our automated SWTBot tests.
 * [SpotBugs](https://spotbugs.github.io/), not strictly needed.
-* Eclipse CheckStyle Plug-in 9.0.1.
+* Eclipse CheckStyle Plug-in 9.1.0.
 * Mylyn WikiText Editor, as a convenience to edit various Textile and Markdown documents (notable the Sirius documentation).
 * Eclipse XML Editors and Tools to edit various XML files more comfortably.
 
