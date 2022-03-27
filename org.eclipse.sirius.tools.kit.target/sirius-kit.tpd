@@ -10,8 +10,8 @@ location Acceleo-3.7 "https://download.eclipse.org/acceleo/updates/releases/3.7/
     org.eclipse.acceleo.sdk.feature.group [3.7.8,3.8.0)
 }
 
-location SWTBot-3_0 "https://download.eclipse.org/technology/swtbot/releases/3.0.0" {
-    org.eclipse.swtbot.ide.feature.group [3.0.0,3.1.0)
+location SWTBot-3_1 "https://download.eclipse.org/technology/swtbot/releases/3.1.0" {
+    org.eclipse.swtbot.ide.feature.group [3.1.0,3.2.0)
 }
 
 location TP-DSL "https://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/" {
@@ -26,7 +26,7 @@ location SpotBugs "https://spotbugs.github.io/eclipse/" {
 	com.github.spotbugs.plugin.eclipse.feature.group lazy
 }
 
-location SonarLint "https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/7.1.0.39158/" {
+location SonarLint "https://eclipse-uc.sonarlint.org/" {
     org.sonarlint.eclipse.feature.feature.group lazy
 }
 
@@ -34,8 +34,7 @@ location Eclipse-Shared-License "https://download.eclipse.org/cbi/updates/licens
     org.eclipse.license.feature.group lazy
 }
 
-location Eclipse-2021-12 "https://download.eclipse.org/releases/2021-12" {
-    com.ibm.icu lazy
+location Eclipse-2022-03 "https://download.eclipse.org/releases/2022-03" {
     org.eclipse.emf.sdk.feature.group lazy
     org.eclipse.equinox.sdk.feature.group lazy
     org.eclipse.platform.feature.group lazy
