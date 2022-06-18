@@ -10,6 +10,7 @@ location Acceleo-3.7 "https://download.eclipse.org/acceleo/updates/releases/3.7/
     org.eclipse.acceleo.sdk.feature.group [3.7.8,3.8.0)
 }
 
+// TODO => 4.0
 location SWTBot-3_1 "https://download.eclipse.org/technology/swtbot/releases/3.1.0" {
     org.eclipse.swtbot.ide.feature.group [3.1.0,3.2.0)
 }
@@ -19,7 +20,7 @@ location TP-DSL "https://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/" {
 }
 
 location Eclipse-CheckStyle "https://checkstyle.org/eclipse-cs-update-site/" {
-    net.sf.eclipsecs.feature.group [9.1.0,9.2.0)
+    net.sf.eclipsecs.feature.group [10.0.0,10.0.1)
 }
 
 location SpotBugs "https://spotbugs.github.io/eclipse/" {
@@ -34,7 +35,7 @@ location Eclipse-Shared-License "https://download.eclipse.org/cbi/updates/licens
     org.eclipse.license.feature.group lazy
 }
 
-location Eclipse-2022-03 "https://download.eclipse.org/releases/2022-03" {
+location Eclipse-2022-06 "https://download.eclipse.org/releases/2022-06" {
     org.eclipse.emf.sdk.feature.group lazy
     org.eclipse.equinox.sdk.feature.group lazy
     org.eclipse.platform.feature.group lazy
