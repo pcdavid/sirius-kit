@@ -14,7 +14,7 @@ The feature `org.eclipse.sirius.tools.kit` includes the following components:
 * Acceleo 3.7, used by some of our examples.
 * Target Platform DSL 3.0.0-SNAPSHOT from [Eclipse CBI](https://github.com/eclipse-cbi/). Note that this is using a (moving) snapshot build at the moment.
 * EMF SDK.
-* SWTBot IDE Integration 3.0, needed to launch our automated SWTBot tests.
+* SWTBot IDE Integration 3.1, needed to launch our automated SWTBot tests.
 * [SpotBugs](https://spotbugs.github.io/), not strictly needed.
 * Eclipse CheckStyle Plug-in 9.1.0.
 * Mylyn WikiText Editor, as a convenience to edit various Textile and Markdown documents (notable the Sirius documentation).
