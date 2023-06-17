@@ -3,26 +3,21 @@
 <target name="sirius-kit" sequenceNumber="1655366405">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="fr.obeo.acceleo.feature.group" version="2.8.0.201102021515"/>
-      <unit id="fr.obeo.acceleo.ui.feature.group" version="2.8.0.201102021515"/>
-      <repository id="Acceleo-2.8" location="https://pcdavid.net/acceleo-2.8.0-repo/"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.acceleo.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.acceleo.sdk.feature.group" version="0.0.0"/>
       <repository id="Acceleo-3.7" location="https://download.eclipse.org/acceleo/updates/releases/3.7/R202211151354"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.swtbot.ide.feature.group" version="3.1.0.202106041005"/>
-      <repository id="SWTBot-3_1" location="https://download.eclipse.org/technology/swtbot/releases/3.1.0"/>
+      <unit id="org.eclipse.swtbot.ide.feature.group" version="0.0.0"/>
+      <repository id="SWTBot-4_1" location="https://download.eclipse.org/technology/swtbot/releases/4.1.0"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.cbi.targetplatform-feature.feature.group" version="3.0.0.202005061025"/>
-      <repository id="TP-DSL" location="https://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/"/>
+      <unit id="org.eclipse.cbi.targetplatform.feature.feature.group" version="0.0.0"/>
+      <repository id="TP-DSL" location="https://download.eclipse.org/cbi/updates/tpd/nightly/latest"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="net.sf.eclipsecs.feature.group" version="10.4.0.202211151918"/>
-      <repository id="Eclipse-CheckStyle" location="https://checkstyle.org/eclipse-cs-update-site/"/>
+      <unit id="net.sf.eclipsecs.feature.group" version="0.0.0"/>
+      <repository id="Eclipse-CheckStyle" location="https://checkstyle.org/eclipse-cs-update-site"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="com.github.spotbugs.plugin.eclipse.feature.group" version="0.0.0"/>
@@ -45,7 +40,7 @@
       <unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.mylyn.wikitext.editors_feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.rcptt.platform.feature.group" version="0.0.0"/>
-      <repository id="Eclipse-2023-03" location="https://download.eclipse.org/releases/2023-03"/>
+      <repository id="Eclipse-2023-06" location="https://download.eclipse.org/releases/2023-06"/>
     </location>
   </locations>
 </target>
