@@ -17,7 +17,7 @@
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="net.sf.eclipsecs.feature.group" version="0.0.0"/>
-      <repository id="Eclipse-CheckStyle" location="https://checkstyle.org/eclipse-cs-update-site"/>
+      <repository id="Eclipse-CheckStyle" location="https://checkstyle.org/eclipse-cs-update-site/releases/10.4.0.202211151918"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="com.github.spotbugs.plugin.eclipse.feature.group" version="0.0.0"/>
