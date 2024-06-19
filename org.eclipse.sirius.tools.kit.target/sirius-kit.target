@@ -23,10 +23,13 @@
       <unit id="com.github.spotbugs.plugin.eclipse.feature.group" version="0.0.0"/>
       <repository id="SpotBugs" location="https://spotbugs.github.io/eclipse/"/>
     </location>
+    <!--
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.sonarlint.eclipse.feature.feature.group" version="0.0.0"/>
       <repository id="SonarLint" location="https://eclipse-uc.sonarlint.org/"/>
+      <repository id="SonarLint" location="https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/10.2.9.81875/"/>
     </location>
+    -->
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="0.0.0"/>
       <repository id="Eclipse-Shared-License" location="https://download.eclipse.org/cbi/updates/license"/>

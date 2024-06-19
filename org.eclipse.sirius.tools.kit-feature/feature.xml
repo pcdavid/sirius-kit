@@ -42,8 +42,7 @@ Contributors:
    <includes id="org.eclipse.swtbot.ide" version="0.0.0"/>
    <includes id="com.github.spotbugs.plugin.eclipse" version="0.0.0"/>
    <includes id="net.sf.eclipsecs" version="0.0.0"/>
-   <includes id="org.sonarlint.eclipse.feature" version="0.0.0"/>
    <includes id="org.eclipse.wst.xml_ui.feature" version="0.0.0"/>
-   <includes id="org.sonarlint.eclipse.feature" version="0.0.0"/>
+   <!--<includes id="org.sonarlint.eclipse.feature" version="0.0.0"/>-->
 
 </feature>
