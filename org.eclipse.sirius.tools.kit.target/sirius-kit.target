@@ -5,7 +5,7 @@
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.acceleo.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.acceleo.sdk.feature.group" version="0.0.0"/>
-      <repository id="Acceleo-3.7" location="https://download.eclipse.org/acceleo/updates/releases/3.7/R202402190857"/>
+      <repository id="Acceleo-3.7" location="https://download.eclipse.org/acceleo/updates/releases/3.7/R202405130857"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.swtbot.ide.feature.group" version="0.0.0"/>
@@ -37,7 +37,7 @@
       <unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.wst.xml_ui.feature.feature.group" version="0.0.0"/>
-      <repository id="Eclipse-2024-03" location="https://download.eclipse.org/releases/2024-03"/>
+      <repository id="Eclipse-2024-06" location="https://download.eclipse.org/releases/2024-06"/>
     </location>
   </locations>
 </target>
