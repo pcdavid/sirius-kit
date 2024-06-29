@@ -14,7 +14,7 @@
 <feature
       id="org.eclipse.sirius.tools.kit"
       label="%featureName"
-      version="24.6.0"
+      version="24.6.1"
       provider-name="%providerName"
       license-feature="org.eclipse.license"
       license-feature-version="0.0.0">
@@ -42,7 +42,6 @@ Contributors:
    <includes id="org.eclipse.swtbot.ide" version="0.0.0"/>
    <includes id="com.github.spotbugs.plugin.eclipse" version="0.0.0"/>
    <includes id="net.sf.eclipsecs" version="0.0.0"/>
-   <includes id="org.eclipse.wst.xml_ui.feature" version="0.0.0"/>
-   <!--<includes id="org.sonarlint.eclipse.feature" version="0.0.0"/>-->
+   <includes id="org.sonarlint.eclipse.feature" version="0.0.0"/>
 
 </feature>
