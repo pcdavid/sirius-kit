@@ -37,8 +37,8 @@
     </licenses>
 
     <properties>
-        <tycho-version>4.0.8</tycho-version>
-        <tycho-extras-version>4.0.8</tycho-extras-version>
+        <tycho-version>4.0.12</tycho-version>
+        <tycho-extras-version>4.0.12</tycho-extras-version>
         <target-platform-path>.</target-platform-path>
     </properties>
 
