@@ -5,11 +5,11 @@
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.acceleo.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.acceleo.sdk.feature.group" version="0.0.0"/>
-      <repository id="Acceleo-3.7" location="https://download.eclipse.org/acceleo/updates/releases/3.7/R202405130857"/>
+      <repository id="Acceleo-3.7" location="https://download.eclipse.org/acceleo/updates/releases/3.7/R202408201303"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.swtbot.ide.feature.group" version="0.0.0"/>
-      <repository id="SWTBot-4_1" location="https://download.eclipse.org/technology/swtbot/releases/4.1.0"/>
+      <repository id="SWTBot-4_1" location="https://download.eclipse.org/technology/swtbot/releases/4.2.1"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.cbi.targetplatform.feature.feature.group" version="0.0.0"/>
@@ -17,7 +17,7 @@
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="net.sf.eclipsecs.feature.group" version="0.0.0"/>
-      <repository id="Eclipse-CheckStyle" location="https://checkstyle.org/eclipse-cs-update-site/releases/10.4.0.202211151918"/>
+      <repository id="Eclipse-CheckStyle" location="https://checkstyle.org/eclipse-cs-update-site"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="com.github.spotbugs.plugin.eclipse.feature.group" version="0.0.0"/>
@@ -25,7 +25,7 @@
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.sonarlint.eclipse.feature.feature.group" version="0.0.0"/>
-      <repository id="SonarLint" location="https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/10.6.0.82217"/>
+      <repository id="SonarLint" location="https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/11.2.0.82640"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="0.0.0"/>
@@ -33,11 +33,9 @@
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.wst.xml_ui.feature.feature.group" version="0.0.0"/>
-      <repository id="Eclipse-2024-09" location="https://download.eclipse.org/releases/2024-09"/>
+      <repository id="Eclipse" location="https://download.eclipse.org/releases/2025-03"/>
     </location>
   </locations>
 </target>
