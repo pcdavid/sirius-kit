@@ -18,7 +18,7 @@
 
     <groupId>org.eclipse.sirius.tools</groupId>
     <artifactId>dev-kit</artifactId>
-    <version>25.3.0</version>
+    <version>25.9.0</version>
     <packaging>pom</packaging>
 
     <name>Sirius Development Kit</name>
@@ -37,8 +37,8 @@
     </licenses>
 
     <properties>
-        <tycho-version>4.0.12</tycho-version>
-        <tycho-extras-version>4.0.12</tycho-extras-version>
+        <tycho-version>4.0.13</tycho-version>
+        <tycho-extras-version>4.0.13</tycho-extras-version>
         <target-platform-path>.</target-platform-path>
     </properties>
 
@@ -68,7 +68,7 @@
                         <artifact>
                             <groupId>org.eclipse.sirius.tools</groupId>
                             <artifactId>dev-kit</artifactId>
-                            <version>25.3.0</version>
+                            <version>25.9.0</version>
                             <classifier>
                                 ./org.eclipse.sirius.tools.kit.target/sirius-kit</classifier>
                         </artifact>
